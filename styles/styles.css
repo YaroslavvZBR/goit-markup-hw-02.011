@@ -1,0 +1,178 @@
+:root {
+    --iris: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --background: #FFFFFF;
+    --order-hover: #404BBF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: var(--navy-blue);
+    background-color: var(--background);
+}
+
+/* Header styles */
+/*
+a {
+    text-decoration: none;
+} */
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+    text-decoration: none;
+}
+
+.head-logo {
+    color: var(--navy-blue);
+}
+
+.no-point {
+    list-style: none;
+}
+
+.nav-anchor {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--navy-blue);
+}
+
+.nav-anchor:hover, .nav-anchor:focus {
+    color: var(--iris);
+}
+
+.address {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    text-decoration: none;
+}
+
+.tel {
+    text-transform: uppercase;
+}
+
+.address:hover, .address:focus {
+    color: var(--iris)
+}
+
+.head {
+    background-color: var(--navy-blue);
+}
+
+.first-header {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.075;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--background);
+}
+
+.order-button {
+    font-family: 'Roboto';
+    background: var(--iris);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.04em;
+    color: var(--background);
+    cursor: pointer;
+}
+
+.order-button:hover, .order-button:focus {
+    background-color: var(--order-hover);
+}
+
+.third-header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.second-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team {
+    background-color: var(--cloud);
+}
+
+.team-box {
+    background: var(--background);
+}
+
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.foot-logo {
+    color: var(--cloud);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cornflower);
+}
+
+.portfolio-button {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background: var(--cloud);
+    cursor: pointer;
+}
+
+.portfolio-button:hover, .portfolio-button:focus {
+    background-color: var(--iris);
+    color: var(--background);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
