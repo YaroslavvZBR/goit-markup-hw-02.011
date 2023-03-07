@@ -17,7 +17,8 @@ body {
     font-style: normal;
     color: var(--navy-blue);
     background-color: var(--background);
-    
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 /* Header styles */
